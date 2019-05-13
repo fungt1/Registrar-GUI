@@ -22,7 +22,7 @@ public class Driver {
 		Term term = new Term("Spring 2017");  // change to the current term
 		Faculty faculty = new Faculty();
 		SectionTimes sectionTimes = new SectionTimes(); 
-		Student student = new Student(1, "Gesualdi");// change to your last name
+		Student student = new Student(1, "Fung");// change to your last name
 		RegistrarGUI gui = new RegistrarGUI(student, term); //instantiate GUI
 				
 		// Populate these objects
